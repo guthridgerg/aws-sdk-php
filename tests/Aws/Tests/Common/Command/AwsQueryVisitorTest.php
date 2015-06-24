@@ -260,7 +260,8 @@ class AwsQueryVisitorTest extends \Guzzle\Tests\GuzzleTestCase
             'location' => 'aws.query',
             'properties' => array(
                 'test' => array(
-                    'type' => 'array'
+                    'type' => 'array',
+                    'sentAs' => 'test.member'
                 ),
                 'bar' => array(
                     'type' => 'object',
